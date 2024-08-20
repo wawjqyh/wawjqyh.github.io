@@ -4,7 +4,8 @@
     "start": "umi dev",
     "build": "umi build",
     "analyze": "ANALYZE=1 umi build",
-    "release": "git subtree push --prefix=dist origin master"
+    "release": "node release.js",
+    "deploy": "npm run build && npm run release"
   },
   "dependencies": {
     "@ant-design/pro-layout": "^5.0.12",
@@ -20,5 +21,9 @@
     "react-dom": "^16.12.0",
     "scroll-into-view-if-needed": "^2.2.26",
     "umi": "^3.5.20"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "shelljs": "^0.8.5"
   }
 }
