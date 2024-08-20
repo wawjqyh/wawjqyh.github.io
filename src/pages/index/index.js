@@ -33,6 +33,7 @@ class Index extends Component {
             <IndexCard link="/blockChain/history" title="区块链" desc="区块链" />
             <IndexCard link="/linux/base" title="linux" desc="linux" />
             <IndexCard link="/linuxCommand" title="linux" desc="linux命令" />
+            <IndexCard link="/microApp/intro" title="microApp" desc="微前端框架" />
           </div>
         </div>
 
