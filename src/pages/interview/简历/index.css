@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: normal normal normal 16px/28px 'Microsoft YaHei', Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+
+a {
+  color: inherit;
+}
+a:active {
+  color: inherit;
+}
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+/* 900*1272.8 */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.page {
+  height: 1272px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.page:last-child {
+  margin: 0;
+}
+
+.ullist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.ullist li {
+  position: relative;
+  padding: 5px 0 5px 20px;
+}
+.ullist li::after {
+  position: absolute;
+  display: block;
+  content: ' ';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgb(12, 52, 75);
+  top: 15px;
+  left: 0;
+}
+
+.info {
+  padding: 40px 80px 30px 80px;
+  background-color: rgb(12, 52, 75);
+  color: #fff;
+}
+.info .myname {
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.secname {
+  height: 40px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  border-bottom: 2px solid rgb(12, 52, 75);
+  font-weight: normal;
+  display: flex;
+}
+.secname div {
+  font-size: 20px;
+  height: 40px;
+  line-height: 44px;
+  width: 160px;
+  padding-left: 80px;
+  background-color: rgb(12, 52, 75);
+  color: #fff;
+  border-radius: 0 30px 0 0;
+}
+
+.section {
+  padding: 20px 80px 0 80px;
+  overflow: hidden;
+}
+
+.subname {
+  font-size: 18px;
+  border-bottom: 1px solid rgb(12, 52, 75);
+  margin: 20px 0 10px 0;
+}
+
+.margin10 {
+  margin-top: 10px;
+}
+.margin20 {
+  margin-top: 20px;
+}

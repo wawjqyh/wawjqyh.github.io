@@ -1,0 +1,47 @@
+.catalogCard {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: ease-out 0.5s;
+  margin-bottom: 20px;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.2);
+  }
+
+  .cardTitle {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+  }
+
+  .cardDesc {
+    color: #666;
+    padding: 15px 20px 0 20px;
+  }
+
+  .cardList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 10px 20px;
+
+    li {
+      color: #999;
+      margin-bottom: 5px;
+
+      .linkItem {
+        cursor: pointer;
+        color: rgb(0, 204, 255);
+      }
+
+      .itemDesc {
+        font-size: 12px;
+        line-height: 16px;
+        color: #999;
+      }
+    }
+  }
+}

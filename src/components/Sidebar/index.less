@@ -1,0 +1,64 @@
+.sidebar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  padding: 10px 0;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  overflow: -moz-scrollbars-vertical;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #333;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .link {
+    position: relative;
+    display: block;
+    padding: 7px 20px;
+    font-size: 13px;
+    line-height: 18px;
+
+    &:hover {
+      color: #fb668e;
+    }
+  }
+
+  .navDisabled {
+    color: #999;
+    cursor: not-allowed;
+    padding: 7px 20px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .classification {
+    margin: 10px 20px 5px 20px;
+    padding: 0 0 10px 0;
+    color: #999;
+    border-bottom: 1px solid #ddd;
+  }
+
+  :global {
+    .active {
+      color: #fb668e;
+      border-left: 3px solid #fb668e;
+      padding-left: 17px;
+
+      &::after {
+        content: ' ';
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #fb668e;
+        top: 50%;
+        right: 7px;
+        margin-top: -3px;
+      }
+    }
+  }
+}

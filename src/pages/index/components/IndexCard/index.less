@@ -1,0 +1,36 @@
+.indexCard {
+  width: 224px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.1);
+  overflow: hidden;
+  transition: ease-out 0.5s;
+  margin: 0 20px 20px 0;
+  border-radius: 10px;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(7, 17, 27, 0.2);
+  }
+
+  &:nth-child(5n) {
+    margin-right: 0;
+  }
+
+  .title {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #fff;
+  }
+
+  .content {
+    box-sizing: content-box;
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+  }
+
+  .desc {
+    color: #999;
+  }
+}

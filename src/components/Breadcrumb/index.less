@@ -1,0 +1,34 @@
+.breadcrumb {
+  position: absolute;
+  height: 64px;
+  line-height: 64px;
+  left: 270px;
+  top: 0;
+  display: flex;
+}
+
+.link {
+  position: relative;
+  color: #999;
+  cursor: pointer;
+  padding-right: 30px;
+
+  &:hover {
+    color: #fb668e;
+  }
+
+  &::after {
+    content: ' ';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #666;
+    right: 12px;
+    top: 29px;
+    border-radius: 50%;
+  }
+}
+
+.linkCur {
+  color: #fb668e;
+}

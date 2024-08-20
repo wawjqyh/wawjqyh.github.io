@@ -1,0 +1,40 @@
+.articleNav {
+  width: 240px;
+  max-height: 100%;
+  position: absolute;
+  padding: 10px 20px 200px 10px;
+  top: 0;
+  right: 0;
+  overflow-y: auto;
+  overflow: -moz-scrollbars-vertical;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #333;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      font-size: 13px;
+      line-height: 18px;
+      padding: 5px 0;
+      cursor: pointer;
+
+      &:hover {
+        color: #fb668e;
+      }
+    }
+
+    .linkH3 {
+      padding-left: 20px;
+      font-weight: normal;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+export default [
+  ['基础知识', 'base', () => import(/* webpackChunkName: "docs/linux/base" */ './docs/base.md')],
+  ['目录结构', 'catalog', () => import(/* webpackChunkName: "docs/linux/catalog" */ './docs/catalog.md')],
+  ['文件和目录', 'file', () => import(/* webpackChunkName: "docs/linux/file" */ './docs/file.md')],
+  ['文件搜索', 'find', () => import(/* webpackChunkName: "docs/linux/find" */ './docs/find.md')],
+  ['关机与重启', 'poweroff', () => import(/* webpackChunkName: "docs/linux/poweroff" */ './docs/poweroff.md')],
+  ['挂载', 'mount', () => import(/* webpackChunkName: "docs/linux/mount" */ './docs/mount.md')],
+  ['帮助命令', 'help', () => import(/* webpackChunkName: "docs/linux/help" */ './docs/help.md')],
+  ['vi编辑器', 'vim', () => import(/* webpackChunkName: "docs/linux/vim" */ './docs/vim.md')],
+  ['用户管理', 'user', () => import(/* webpackChunkName: "docs/linux/user" */ './docs/user.md')],
+  ['软件管理', 'software', () => import(/* webpackChunkName: "docs/linux/software" */ './docs/software.md')],
+  ['远程登录', 'telnet', () => import(/* webpackChunkName: "docs/linux/telnet" */ './docs/telnet.md')],
+  ['网络配置', 'netConf', () => import(/* webpackChunkName: "docs/linux/netConf" */ './docs/netConf.md')],
+  ['firewall', 'firewall', () => import(/* webpackChunkName: "docs/linux/firewall" */ './docs/firewall.md')],
+  ['shell', 'shell', () => import(/* webpackChunkName: "docs/linux/shell" */ './docs/shell.md')],
+  ['服务管理', 'service', () => import(/* webpackChunkName: "docs/linux/service" */ './docs/service.md')],
+  ['进程管理', 'process', () => import(/* webpackChunkName: "docs/linux/process" */ './docs/process.md')],
+  ['node 安装', 'mariadb', () => import(/* webpackChunkName: "docs/linux/mariadb" */ './docs/mariadb.md')],
+  ['node 安装', 'node', () => import(/* webpackChunkName: "docs/linux/node" */ './docs/linuxNode.md')]
+];

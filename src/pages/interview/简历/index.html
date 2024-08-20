@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>简历</title>
+
+    <link href="./index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="page">
+        <div class="info">
+          <div class="myname">邱宇航</div>
+          <div>基本信息：1995.07 男 汉族</div>
+          <div>手机：18720989381</div>
+          <div>邮箱：1205639813@qq.com</div>
+          <div>博客：<a href="https://wawjqyh.gitee.io" target="_blank">https://wawjqyh.gitee.io</a></div>
+          <div>Github: <a href="https://github.com/wawjqyh" target="_blank">https://github.com/wawjqyh</a></div>
+        </div>
+
+        <h2 class="secname"><div>教育背景</div></h2>
+        <div class="section">2012/09 - 2016/06 东华理工大学 软件工程专业 本科</div>
+
+        <h2 class="secname"><div>自我评价</div></h2>
+        <div class="section">
+          <ul class="ullist">
+            <li>能够熟练应用 HTML/CSS/JS 等前端开发语言，编写可读性强、结构良好的代码</li>
+            <li>
+              熟练掌握 JS 闭包、原型链、ES6、浏览器渲染机制、网络、安全和性能优化等相关知识，有一定的数据结构和算法基础
+            </li>
+            <li>
+              有丰富的 Vue、React、移动端项目开发经验，熟悉移动端适配。了解小程序、Hybrid、Electron、node.js、koa
+              和数据库并有实际独立负责项目开发经验
+            </li>
+          </ul>
+          <div><b>技术栈：</b>Vue、ElementUI、React、webpack、umi、antd、Electron、Hybrid、node</div>
+        </div>
+
+        <h2 class="secname"><div>工作经历</div></h2>
+        <div class="section">
+          <div>
+            <div class="subname">2018/09 - 2021/03 万科-深圳梅沙科技有限公司 （前端工程师）</div>
+            <p>
+              独立负责梅沙少儿编程项目(从 0 开发)，其中包括 PC
+              端、桌面端、移动端、移动客户端项目；作为主要成员参与考试系统开发，负责约 7
+              成开发工作；负责公司内部接口管理平台(yapi 二次开发)落地和维护，经多次迭代优化近 20
+              个功能点。参与产品需求讨论，日常分享项目总结和沉淀技术文章
+            </p>
+          </div>
+
+          <div>
+            <div class="subname">2017/03 - 2018/07 深圳鸿博永创科技有限公司 （前端工程师）</div>
+            <p>
+              百威啤酒集享会(二维码营销)项目前端负责人。负责集享会项目开发、旧项目优化和维护，推动重构集享会管理端。负责前端团队基础服务、前端工程化体系的建设，搭建日志系统监控页面报错和页面性能
+            </p>
+          </div>
+
+          <div>
+            <div class="subname">2016/03 - 2017/03 深圳市立信创源科技有限公司 （前端组组长 - 5人）</div>
+            <p>
+              负责前端的技术选型以及项目搭建，协调前端与各部门的沟通和合作，参与项目的评估以及把控项目的进度和质量。负责前端团队基础服务、前端工程化体系的建设。参与了
+              4 个 PC 端项目，9 个微信公众号项目，40+ 个微刊
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="page">
+        <div style="height: 20px"></div>
+        <h2 class="secname" style="margin: 0"><div>项目经验</div></h2>
+        <div class="section">
+          <div>
+            <div class="subname"><b>少儿编程平台</b> （前端负责人） 2018/10-2020/03</div>
+            <p>
+              编程平台是基于 Scratch 图形化编程语言开发的一个创作和分享的平台，面向中小学生。已对外开放
+              <a href="https://www.mscode.co"> https://www.mscode.co </a>
+              ，并且出品了配套的教材。目前用于梅沙教育旗下学校的编程课教学
+            </p>
+            <p>
+              本人负责编程平台项目所有开发，开发中对项目架构做了持续的改进，对复杂项目逻辑解偶、组件解偶。极大简化了项目，并且打包速度减少
+              50%。产出了相应的公共库，scratch
+              编辑器、运行器库等。对性能和体验做了一定优化，例如合并压缩文件、预加载、作品缓存等，保证用户体验。
+            </p>
+            <p>编程平台包含多个端的项目：</p>
+            <ul class="ullist">
+              <li>
+                PC 端：具有作品创作、作品社区、在线教程等功能。Scratch 是一个复杂的开源项目，打包后 js 文件达
+                14M，阅读源码后将其抽离成为单独库，实现打包速度减少 50%；并且从编辑器中抽离了运行器作为单独组件，可用在
+                PC 端和移动端单独运行作品；作用使用 indexDB 做了缓存，防止编辑时意外丢失，并做到二次快速打开
+              </li>
+              <li>
+                桌面端：功能和 PC 端类似，可离线使用。使用 lowdb
+                管理本地的作品实现作品和服务端同步，以支持离线使用和弱网环境，保证在弱网环境使用不会卡顿或造成作品丢失。支持
+                windows、macOS 多端使用
+              </li>
+              <li>
+                移动客户端：面向 4-6 岁儿童的编程工具，目前用于梅沙教育旗下幼儿园的编程课教学。使用 Hybrid
+                模式开发，项目使用 dsBridge 跟客户端通信，作品实现本地存储和服务器同步，对 UI
+                做了响应式处理以兼容手机和平板。幼儿园学生大多无法自主登录，经调研，使用了 websocket
+                实现教师端授权登录，教师可以用自己的设备，选中某个学生对其进行扫码授权。支持 Android、iOS 多端使用
+              </li>
+              <li>
+                移动端：主要用于作品分享，各个端创建的作品可以通过微信分享，在移动端运行作品；从 PC
+                端的编辑器中抽取出单独的运行器组件以兼容移动端，并实现虚拟键盘用来操作游戏
+              </li>
+              <li>管理端：Vue 项目，后台管理用户、作品和数据统计，作品审批禁用等。使用 echarts 做数据可视化</li>
+            </ul>
+            <p>技术栈：react + umi + dva + antd + electron + lowdb + indexDB + dsBridge + websocket</p>
+          </div>
+
+          <div>
+            <div class="subname"><b>考试系统</b> （主要成员） 2020/04-2021/03</div>
+            <p>
+              考试系统教师端包含千万级的题库管理、录题、组卷、答题卡、批改等功能。目前用于梅沙教育旗下学校的日常考试和教学
+            </p>
+            <p>本人为考试系统教师端的主力开发，负责近 70% 的开发工作，从 0 开始参与</p>
+            <ul class="ullist">
+              <li>
+                录题：最初只实现单题录入，效率较低，后经调研可以对富文本进行解析，自动识别整张试卷的题目。批量录题使用大量的正则校验，可以自动的识别出题型、题干、选项、答案、解析等内容，对于不规范的题目会展示错误提示。可通过导入
+                word 文档，批量识别文档内整个试卷的题目。在 quill 富文本编辑器中整合了 kitformula
+                公式编辑器，可在编辑器中快速插入公式
+              </li>
+              <li>组卷：在前端实现题目的选择和试卷排版，排版后可导出 word 文档</li>
+              <li>批改：使用 fabric 实现了图片批注功能(体验和微信截图工具类似)，方便题目批改</li>
+            </ul>
+            <p>技术栈：vue + element-ui + fabric</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="section">
+          <div>
+            <div class="subname"><b>百威集享会</b> （前端负责人） 2017/03-2018/07</div>
+            <p>
+              集享会是百威啤酒的一个二维码营销系统，主要面向全国餐厅，用户通过扫码啤酒箱上的二维码获取积分，在积分商城兑换物品，以此刺激销量
+            </p>
+            <ul class="ullist">
+              <li>集享会：是一个公众号项目，调用微信 JSSDK 进行扫码。包含赚积分和积分商城两个模块</li>
+              <li>
+                集享会管理端：原本是一个后端项目，后本人主导使用 Vue
+                将其重构为前后端分离项目，极大提高了项目的开发效率。抽离了一些表单组件，使用 echarts 做数据可视化
+              </li>
+              <li>
+                错误和性能监控：从 0 开发了前端监控插件和日志系统，支持对 js
+                错误、接口报错等多种异常和页面性能数据进行上报。可以在管理端查看错误日志，和页面加载时间日志
+              </li>
+            </ul>
+            <p>技术栈：vue + element-ui + mint-ui + echarts</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
