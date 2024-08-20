@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["docs/webpack/library"],{HA8t:function(a,r){var i='<h1 id="\u6253\u5305-library">\u6253\u5305 library</h1> <p><a href="https://webpack.docschina.org/guides/author-libraries/">\u4e2d\u6587\u6587\u6863</a></p> ';a.exports=i}}]);

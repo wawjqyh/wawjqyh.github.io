@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["docs/blockChain/dataType"],{iehU:function(o,n){var p='<h1 id="\u6570\u636e\u683c\u5f0f">\u6570\u636e\u683c\u5f0f</h1> ';o.exports=p}}]);

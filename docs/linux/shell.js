@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["docs/linux/shell"],{Lkaj:function(s,l){var n='<h1 id="shell">shell</h1> ';s.exports=n}}]);
