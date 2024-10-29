@@ -9,5 +9,6 @@ export default [
   ['Frame 和 window', 'frameWindow', () => import(/* webpackChunkName: "docs/browser/frameWindow" */ './docs/7-frame-window.md')],
   ['二进制数据和文件', 'file', () => import(/* webpackChunkName: "docs/browser/file" */ './docs/8-file.md')],
   ['网络请求', 'network', () => import(/* webpackChunkName: "docs/browser/network" */ './docs/9-network.md')],
-  ['数据存储', 'data', () => import(/* webpackChunkName: "docs/browser/data" */ './docs/10-data.md')]
+  ['数据存储', 'data', () => import(/* webpackChunkName: "docs/browser/data" */ './docs/10-data.md')],
+  ['web components', 'components', () => import(/* webpackChunkName: "docs/browser/components" */ './docs/11-web-components.md')]
 ];

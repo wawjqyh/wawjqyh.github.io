@@ -12,6 +12,5 @@ export default [
   ['angular', 'angular', () => import(/* webpackChunkName: "docs/others/angular" */ './docs/angular.md')],
   ['react', 'react', () => import(/* webpackChunkName: "docs/others/react" */ './docs/react.md')],
   ['yapi开发文档', 'yapi', () => import(/* webpackChunkName: "docs/others/yapi" */ './docs/yapi.md')],
-  ['Nuxt3 升级', 'nuxt3', () => import(/* webpackChunkName: "docs/others/nuxt3" */ './docs/nuxt3.md')],
-  ['VSCode 插件开发', 'vscode', () => import(/* webpackChunkName: "docs/others/vscode" */ './docs/vscode.md')]
+  ['VSCode 插件开发', 'vscode', () => import(/* webpackChunkName: "docs/others/vscode" */ './docs/vscode.md')],
 ];
