@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["docs/nuxt2/1-1-view"],{h2xP:function(w,i){var n='<h1 id="view">View</h1> ';w.exports=n}}]);
