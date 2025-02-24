@@ -35,6 +35,7 @@ class Index extends Component {
             <IndexCard link="/linuxCommand" title="linux" desc="linux命令" />
             <IndexCard link="/microApp/intro" title="microApp" desc="微前端框架" />
             <IndexCard link="/vue/resource" title="vue" desc="vue" />
+            <IndexCard link="/nuxt2/0-intro" title="nuxt2" desc="nuxt2" />
           </div>
         </div>
 
