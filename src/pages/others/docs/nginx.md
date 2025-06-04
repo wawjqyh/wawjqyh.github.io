@@ -13,7 +13,7 @@ v2ray 更改配置：
 更改 hosts：
 
 ```
-127.0.0.1 dev_coinex.viadeploy.com
+127.0.0.1 test.lalala.com
 ```
 
 如果浏览器报错 `net::ERR_CONTENT_LENGTH_MISMATCH` 可能是 nginx 没有权限
