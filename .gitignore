@@ -17,4 +17,5 @@
 /.env.local
 /dist
 /src/pages/coinex
-
+/src/pages/essay
+/src/pages/plan
